@@ -22,6 +22,9 @@
 		6AAD95A519B59BE200891C72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAD958419B59BE200891C72 /* UIKit.framework */; };
 		6AAD95AD19B59BE200891C72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD95AB19B59BE200891C72 /* InfoPlist.strings */; };
 		6AAD95AF19B59BE200891C72 /* GradeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD95AE19B59BE200891C72 /* GradeTrackerTests.m */; };
+		6AAD95BA19B5FAC800891C72 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD95B819B5FAC800891C72 /* Model.xcdatamodeld */; };
+		6AAD95E119B655CF00891C72 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD95E019B655CF00891C72 /* Course.m */; };
+		6AAD95E419B655CF00891C72 /* GradeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD95E319B655CF00891C72 /* GradeType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		6AAD95AA19B59BE200891C72 /* GradeTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradeTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		6AAD95AC19B59BE200891C72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AAD95AE19B59BE200891C72 /* GradeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeTrackerTests.m; sourceTree = "<group>"; };
+		6AAD95B919B5FAC800891C72 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6AAD95DF19B655CF00891C72 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		6AAD95E019B655CF00891C72 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		6AAD95E219B655CF00891C72 /* GradeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeType.h; sourceTree = "<group>"; };
+		6AAD95E319B655CF00891C72 /* GradeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,11 @@
 				6AAD959519B59BE200891C72 /* Main_iPad.storyboard */,
 				6AAD959819B59BE200891C72 /* BCCViewController.h */,
 				6AAD959919B59BE200891C72 /* BCCViewController.m */,
+				6AAD95DF19B655CF00891C72 /* Course.h */,
+				6AAD95E219B655CF00891C72 /* GradeType.h */,
+				6AAD95E319B655CF00891C72 /* GradeType.m */,
+				6AAD95E019B655CF00891C72 /* Course.m */,
+				6AAD95B819B5FAC800891C72 /* Model.xcdatamodeld */,
 				6AAD959B19B59BE200891C72 /* Images.xcassets */,
 				6AAD958719B59BE200891C72 /* Supporting Files */,
 			);
@@ -257,6 +270,9 @@
 				6AAD958D19B59BE200891C72 /* main.m in Sources */,
 				6AAD959A19B59BE200891C72 /* BCCViewController.m in Sources */,
 				6AAD959119B59BE200891C72 /* BCCAppDelegate.m in Sources */,
+				6AAD95BA19B5FAC800891C72 /* Model.xcdatamodeld in Sources */,
+				6AAD95E119B655CF00891C72 /* Course.m in Sources */,
+				6AAD95E419B655CF00891C72 /* GradeType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +497,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6AAD95B819B5FAC800891C72 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6AAD95B919B5FAC800891C72 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6AAD95B919B5FAC800891C72 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6AAD957519B59BE200891C72 /* Project object */;
 }
